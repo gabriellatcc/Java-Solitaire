@@ -47,6 +47,16 @@ public class Carta {
         return virada;
     }
 
+    public void setNaipe(int naipeIndex) {
+        Naipe novoNaipe = Naipe.getNaipeByIndex(naipeIndex);
+        this.naipe = novoNaipe;
+    }
+
+
+    public void setValor(Valor valor) {
+        this.valor = valor;
+    }
+
     /**
      * Modifica o estado de carta virada ou não
      * @param virada o estado da carta.

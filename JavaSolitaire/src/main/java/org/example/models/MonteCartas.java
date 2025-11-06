@@ -7,6 +7,8 @@ import java.util.HashSet;
  */
 public class MonteCartas {
     private HashSet<Carta> monte = new HashSet<>();
+    private int tamanhoInicialMonte = 0;
+
 
     /**
      * Acessa o monte de cartas
@@ -22,5 +24,11 @@ public class MonteCartas {
      */
     public void setMonte(HashSet<Carta> monte) {
         this.monte = monte;
+    }
+
+    public int getTamanhoInicialMonte() {return tamanhoInicialMonte;}
+
+    public void setTamanho(int i) {
+        this.tamanhoInicialMonte=i;
     }
 }
