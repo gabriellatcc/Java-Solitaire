@@ -1,4 +1,4 @@
-# Java-Solitaire 🃏
+<h1>🃏 Java Solitaire - Jogo de turnos com cartas (via terminal)</h1>
 Este jogo fundamenta-se nas regras do jogo Paciência, está sendo desenvolvido em linguagem Java para ser executado diretamente no terminal e será jogado por turnos.
 
 O padrão de arquitetura seguido é o MVC, tendo como parte gráfica o próprio terminal, as regras de negócio pertencentes aos modelos (monte de cartas, cartas, jogo) e um controlador para interpretar as entradas do usuário.
